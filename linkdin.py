@@ -69,11 +69,11 @@ def Navigation(URL):
 
     #user_name = driver.find_element(By.ID,"session_key")
     user_name = driver.find_element(By.ID,"username")
-    user_name.send_keys('priyeshroy10155@gmail.com')
+    user_name.send_keys('***********')
     time.sleep(random.uniform(2.5, 4.9))
 
     password = driver.find_element(By.ID,"password")
-    password.send_keys('Priyesh@841414')
+    password.send_keys('*************')
 
     time.sleep(random.uniform(2.5, 4.9))
 
